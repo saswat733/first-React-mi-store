@@ -1,0 +1,14 @@
+.offer{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: space-around;
+    cursor: pointer;
+}
+.offer img{
+    transition: all 0.5s;
+}
+.offer img:hover{
+    box-shadow: 4px 8px 15px rgba(53,53,53,0.36);
+    border-radius: 20px;
+}

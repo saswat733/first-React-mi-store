@@ -1,0 +1,15 @@
+.HotAccessoriesMenu{
+    display: flex;
+    justify-content: center;
+}
+.HotAccessoriesMenulink{
+    text-decoration: none;
+    color: rgb(94,94,94);
+    margin: 1vmax;
+    padding: 0.5vmax 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.HotAccessoriesMenulink:hover{
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}

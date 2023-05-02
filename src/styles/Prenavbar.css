@@ -1,0 +1,44 @@
+.preNav{
+    background-color: rgb(68,67,68);
+    /* background-color: var(--background-white); */
+    box-shadow: 0 6px 16px 0 #1919190f;
+    /* top: 0; */
+    /* z-index: 20; */
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    color: white;
+
+}
+.preNav>div{
+    padding: 0 3vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.preNav>div>a{
+    color: rgb(180,180,180);
+    text-decoration: none;
+    margin: 0 10px;
+}
+.preNav>div>span{
+    width: 3px;
+    height: 25px;
+    font-size: 08vmax;
+    background-color: rgb(180,180,180);
+    
+}
+.preNav>div>a:hover{
+    color: white;
+}
+.preNav>div svg{
+    fill: rgb(145, 130, 130);
+    width: 30px;
+}
+.preNav>div svg:hover{
+    color: white;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
